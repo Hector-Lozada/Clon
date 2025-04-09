@@ -8,19 +8,16 @@ async function main() {
     try {
         await db.category.createMany({
             data: [
-                { name: "Programación" },
-                { name: "Redes" },
-                { name: "Empresarial" },
-                { name: "" },
-                { name: "Business" },
-                { name: "Business & Finance" },
-                { name: "Reading" },
-                { name: "Education" },
-                { name: "Technology" },
-                { name: "Science" },
-                { name: "Health" },
-                { name: "Art" },
-                { name: "Fashion" },
+                { name: "TIC'S" },
+                { name: "Educación Básica" },
+                { name: "Educación Inicial" },
+                { name: "Electricidad" },
+                { name: "Mecánica" },
+                { name: "Química" },
+                { name: "Administración de Empresas" },
+                { name: "Admisión" },
+                { name: "Educación Física" },
+                { name: "Inglés" },
             ] 
         })
         
